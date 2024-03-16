@@ -1,0 +1,37 @@
+[
+    {
+        "name": "Яблочки",
+        "description": "Спелые, вкусные",
+        "price": 68,
+        "quantity": 235,
+        "discount": 1
+    },
+    {
+        "name": "Клубника",
+        "description": "Сладкая и сочная",
+        "price": 44,
+        "quantity": 23,
+        "discount": 1
+    },
+    {
+        "name": "Бананы",
+        "description": "Без ГМО и консервантов",
+        "price": 48,
+        "quantity": 423,
+        "discount": 1
+    },
+    {
+        "name": "Огурцы",
+        "description": "Как у бабушки на даче",
+        "price": 68,
+        "quantity": 174,
+        "discount": 0.7
+    },
+    {
+        "name": "Помидоры",
+        "description": "Красные",
+        "price": 49,
+        "quantity": 87,
+        "discount": 0.8
+    }
+]

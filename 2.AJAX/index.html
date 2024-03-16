@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="app.css">
+    <title>2. Ajax запрос</title>
+</head>
+<body>
+    <div class="container">
+        <form method="post" action="" class="form" id="login-form">
+            <label for="user-name" class="form__label">Имя пользователя</label>
+            <input required name="login" type="text" class="form__input" id="user-name" placeholder="admin">
+            <label for="password" class="form__label">Пароль пользователя</label>
+            <input required name="password" type="password" class="form__input" id="password" placeholder="*****">
+            <input type="submit" class="form__button" id="submitBtn"></input>
+            <div class="form__result">Тут будет результат отправки формы</div>
+        </form>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
